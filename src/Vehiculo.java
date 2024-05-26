@@ -54,4 +54,15 @@ public class Vehiculo {
         System.out.println("Año: " + año);
         System.out.println("Kilometraje: " + kilometraje);
     }
+
+    // Metodo de mantenimiento
+    public void realizarMantenimiento(int NivelAceite){
+        System.out.println("Revision general:");
+        System.out.println("-Revision del motor");
+        System.out.println("-Revision de llantas");
+        System.out.println("-Revision de fluidos");
+        System.out.println("-Revision de amortiguadores");
+        System.out.println("-Revision de Luces");
+        System.out.println();
+    }
 }
