@@ -14,5 +14,14 @@ public class App {
 
         System.out.println("Informacion del Camion");
         camion.mostrarInfo();
+        System.out.println();
+     // Mostrar la informacion del metodo de mantenimiento
+     System.out.println("Mantenimiento para el Auto");
+     auto.realizarMantenimiento(50);
+     System.out.println("=========================================================");
+     System.out.println("Mantenimiento para el Camnion");
+     camion.realizarMantenimiento(20);
+     System.out.println();
+     auto.CalcularCostoMantenimiento(0.7, 15000);
     }
 }
